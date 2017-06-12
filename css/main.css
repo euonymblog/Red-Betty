@@ -1,0 +1,186 @@
+*{
+  padding: 0%;
+  margin: 0;
+  box-sizing: border-box;
+  /*border: 1px solid pink;*/
+  font-family: 'Titillium Web', sans-serif;
+
+}
+
+a {
+  text-decoration: none;
+  color: lightgrey;
+  line-height: 2;
+}
+
+
+
+h1, h2 {
+  font-family: 'Questrial', sans-serif;
+  line-height: 1.3;
+}
+
+h2 {
+  color: #b5231d;
+  font-size: 2rem;
+  padding: 5% 0;
+
+}
+
+h3 {
+  color: darkslategrey;
+  font-size: 1rem;
+}
+
+h4, h5 {
+  color: #b5231d;
+}
+
+h4 {
+  font-size: 1.5rem;
+}
+
+h5 {
+  font-size: 1.2rem;
+}
+
+p, ul {
+  color: darkslategrey;
+}
+
+.nav {
+  margin-top: 15%;
+  font-size: 0.9rem;
+
+}
+/*.intro {
+  margin-top: 3%;
+}
+
+.intro h2, h3 {
+  margin-top: 0%;
+}*/
+
+.info {
+  background-color: whitesmoke;
+  padding-left: 5%;
+
+}
+
+.gallery {
+  background-color: white;
+  padding-left: 5%;
+  margin-top: 7%;
+
+}
+
+.contact {
+  background-color: whitesmoke;
+  padding-left: 5%;
+  margin-top: 7%;
+  padding-bottom: 20%;
+}
+
+.contact a {
+  color: darkslategrey;
+}
+
+#side {
+  width: 25%;
+  height: 100%;
+  padding: 3%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  color: white;
+  text-align: left;
+  z-index: 2;
+  background: #a70d17;
+  letter-spacing: 4px;
+  font-size: 0.7rem;
+}
+
+#side p {
+  color: white;
+}
+
+#main {
+  margin-left: 25%;
+  width: 75%;
+  float: left;
+}
+
+#toppicture {
+  min-height: 75vh;
+  background-image: url('../images/mainimage.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hours {
+  margin-top: 5%;
+}
+
+.openinghours {
+  min-height: 20vh;
+  background-image: url('../images/booze.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.find, .stage, .screenings, .cash {
+  margin-top: 5%;
+}
+
+.map {
+  min-height: 20vh;
+  background-image: url('../images/map.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.staged, .finding, .opening, .screen, .cashing {
+  padding-right: 3%;
+}
+
+.stagepic {
+  min-height: 20vh;
+  background-image: url('../images/staged3.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.screened {
+  min-height: 20vh;
+  background-image: url('../images/table.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.cashed {
+  min-height: 20vh;
+  background-image: url('../images/cashonly.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.pic {
+  min-height: 30vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#pic1 {
+  background-image: url('../images/music2.jpg');
+}
+
+#pic2 {
+  background-image: url('../images/posters.jpg');
+}
